@@ -1,11 +1,3 @@
-import pygame
-
-pygame.init()
-
-window = pygame.display.set_mode(size=(720, 480))
-
-while True:
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            pygame.quit()
-            quit()
+from code.Game import Game
+game = Game()
+game.run()
