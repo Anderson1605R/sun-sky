@@ -9,7 +9,7 @@ class Gato(Personagem):
                   'assets/personagens/4 Cat 2/2.png', 'assets/personagens/4 Cat 2/3.png']
         super().__init__(frames, pos_inicial, (50, 50))
 
-        self.velocidade = 5
+        self.velocidade = 4.5
         self.movendo = False
         self.tela_rect = tela_rect
 

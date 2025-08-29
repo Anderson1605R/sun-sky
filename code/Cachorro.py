@@ -11,7 +11,7 @@ class Cachorro(Personagem):
                   'assets/personagens/2 Dog 2/2.png', 'assets/personagens/2 Dog 2/3.png']
         super().__init__(frames, pos_inicial, (50, 50))
 
-        self.velocidade = 5.0
+        self.velocidade = 5.5
         self.aceleracao_fuga = 0.08
         self.tela_rect = tela_rect  # Guarda o retângulo da tela para checar limites
         self.IMPULSO_RICOCHETE = 0.4  # Força do "empurrão" para longe da parede
